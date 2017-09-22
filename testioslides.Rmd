@@ -1,5 +1,5 @@
 ---
-title: "Testioslides"
+title: "Testioslides" 
 author: "邱飞"
 date: "9/22/2017"
 output: ioslides_presentation
@@ -11,7 +11,7 @@ logo: logo.jpg
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+## R Markdown 
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -73,12 +73,13 @@ This text is centered.
 </div>
 
 ## Dinner 
-<div class="columns-2">
-kankan
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+<div class="columns-2">
+  suoyoude
+
+  - Bullet 1
+  - Bullet 2
+  - Bullet 3
 </div>
 
 
