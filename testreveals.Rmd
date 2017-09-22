@@ -1,0 +1,70 @@
+---
+title: "testreveals"
+author: qiufei
+data: 2017-09-22
+output:
+  revealjs::revealjs_presentation:
+    theme: sky
+    reveal_options:
+      slideNumber: true
+---
+
+## R Markdown
+
+This is an R Markdown presentation.  For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## {data-background="01-financial-holding.jpg"}
+
+kankan
+
+
+
+
+##  {data-background=#ff0000}
+
+Slide with R Code and Output
+
+{data-background=#ff0000}
+
+
+- Bullet 3 $$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+## {data-background-iframe="https://github.com"}
+
+
+## two
+
+
+
+| we     |    |    |    |    |
+|--------|----|----|----|----|
+| ranhou |    |    |    |    |
+|        | we | we |    | we |
+|        | we | we | we |    |
+
+## two
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+<div class="red2">
+This text is red
+</div>
+
+
+

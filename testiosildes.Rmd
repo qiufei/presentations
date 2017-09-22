@@ -1,0 +1,113 @@
+---
+title: "Testioslides"
+author: "邱飞"
+date: "9/22/2017"
+output: ioslides_presentation
+widescreen: true
+logo: logo.jpg
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+<div class="red2">
+This text is red
+</div>
+
+
+## R Markdown
+
+This is an R Markdown presentation.  For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## {data-background="01-financial-holding.jpg"}
+
+kankan
+
+![picture of spaghetti](01-financial-holding.jpg)
+
+
+##  {data-background=#ff0000}
+
+Slide with R Code and Output
+
+{data-background=#ff0000}
+
+
+- Bullet 3 $$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+## Dinner {.flexbox .vcenter}
+
+<div class="centered">
+This text is centered.
+</div>
+
+## Dinner 
+<div class="columns-2">
+kankan
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+</div>
+
+
+## 双栏
+
+<div class="notes">
+This is my *note*.
+
+- It can contain markdown
+- like this list
+
+</div>
+
+
+| we     |    |    |    |    |
+|--------|----|----|----|----|
+| ranhou |    |    |    |    |
+|        | we | we |    | we |
+|        | we | we | we |    |
+
+## 双栏
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+<div class="red2">
+This text is red
+</div>
+
