@@ -9,6 +9,8 @@
 
 [测试ioslides](http://htmlpreview.github.com/?https://github.com/qiufei/presentations/blob/master/testioslides.html)
 
+[备用地址](https://rawgit.com/qiufei/banking/master/testioslides.html)
+
 
 
 
