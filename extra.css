@@ -1,4 +1,29 @@
 
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) { background: #eee }
+
+
 .red {
   color: #FF0000;
 }
+
+.yellow {
+  color: #FFFF00 ;
+}
+
+.blue {
+  color: #0000FF;
+}
+
+.green {
+  color: #00FF00;
+}
+
+
+

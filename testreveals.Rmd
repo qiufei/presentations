@@ -1,21 +1,22 @@
 ---
 title: "testreveals"
 author: qiufei
-data: 2017-09-22
+date: 2017-09-22
 output:
   revealjs::revealjs_presentation:
     theme: sky
+    css: extra.css
     reveal_options:
       slideNumber: true
 ---
 
 ## R Markdown
 
-This is an R Markdown presentation.  For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+纯文字
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
 
-## {data-background="01-financial-holding.jpg"}
+
+## {data-background="logo.jpg"}
 
 kankan
 
@@ -24,12 +25,8 @@ kankan
 
 ##  {data-background=#ff0000}
 
-Slide with R Code and Output
 
-{data-background=#ff0000}
-
-
-- Bullet 3 $$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
+$$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
 
 ```{r}
 summary(cars)
@@ -41,20 +38,12 @@ summary(cars)
 plot(cars)
 ```
 
-## {data-background-iframe="https://github.com"}
-
-
-## two
+## {data-background-iframe="https://www.baidu.com"}
 
 
 
-| we     |    |    |    |    |
-|--------|----|----|----|----|
-| ranhou |    |    |    |    |
-|        | we | we |    | we |
-|        | we | we | we |    |
 
-## two
+## table
 
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
@@ -62,9 +51,11 @@ plot(cars)
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
 
-<div class="red2">
+
+## 改变字体颜色
+
+<div class="red">
 This text is red
-</div>
+</div> 
 
-
-
+> so there is
