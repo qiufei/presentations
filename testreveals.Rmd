@@ -51,6 +51,7 @@ plot(cars)
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
 
+:  Demonstration of simple table syntax
 
 ## 改变字体颜色
 
@@ -59,3 +60,5 @@ This text is red
 </div> 
 
 > so there is
+
+
