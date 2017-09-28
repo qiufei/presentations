@@ -61,4 +61,22 @@ This text is red
 
 > so there is
 
+## two columns
+
+<div id="left">
+
+- 先定义一个左右环境在css中
+- 就可以使用two columns of text了
+- fun！
+
+</div>
+
+
+<div id="right">
+
+- You can place two graphs on a slide
+- Or two columns of text
+- These are all created with div elements
+
+</div>
 
