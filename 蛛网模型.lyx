@@ -92,7 +92,7 @@
 \end_layout
 
 \begin_layout Date
-2017.9.29
+2017.10.11
 \end_layout
 
 \begin_layout Frame
@@ -466,7 +466,7 @@ status open
 \end_inset
 
 为奇数，
-\begin_inset Formula $p_{t}=-p_{0}$
+\begin_inset Formula $p_{t}=-p_{0}+\frac{B-b}{a}$
 \end_inset
 
 
@@ -478,7 +478,7 @@ status open
 \end_inset
 
 为偶数，
-\begin_inset Formula $p_{t}=p_{0}+\frac{B-b}{a}$
+\begin_inset Formula $p_{t}=p_{0}$
 \end_inset
 
 
