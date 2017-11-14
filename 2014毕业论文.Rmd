@@ -4,6 +4,8 @@ author: "qiufei"
 date: "2017年11月8日"
 bibliography: ref.bib
 output: 
+  word_document: 
+    toc: yes
   html_document: 
     df_print: kable
     keep_md: yes
@@ -87,6 +89,6 @@ knitr::opts_chunk$set(echo = TRUE)
 <!-- 2014014171  包从赶  -->
 
 
-----
+--
 参考文献：
 

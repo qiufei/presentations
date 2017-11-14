@@ -1,0 +1,100 @@
+---
+title: "统计学导论"
+author: 邱飞
+date: 2017-11-23
+output:
+  revealjs::revealjs_presentation:
+    theme: sky
+    css: extra.css
+    reveal_options:
+      slideNumber: true
+---
+
+
+## the end of the uncertainty
+
+- 人类所有的活动都是基于预测：上大学、工作、结婚、投资
+
+- 然而未来是不可完全预测的
+
+- 所以我们需要一种系统的做出正确决策的方法
+
+## 统计学是一种学习和决策方法
+
+>statistics as a method of *learning from experience* and *decision making under uncertainty*.
+
+
+## 统计方法是一种归纳性的方法
+
+- inductive reasoning can be made precise by specifying the amount of uncertainty involve in the conclusion. 
+
+- this pave the way for working out an optimum course of action involving minimum risk, in any given uncertain situation, by a purely deductive process.
+
+最小风险决策
+
+## 不确定性的程度
+
+uncertainty knowledge
+
++
+
+knowledge of the amount of uncertainty in it
+
+=
+
+usable knowledge
+
+## chance曾经是认识的障碍
+
+- 从亚理斯多德到19世纪，人们一直认为chance是人们认识的障碍，
+
+- 由于概率的存在，使得预测不可能准确。
+
+## chance变为认识的方法
+
+- 现在人们认识到随机性内在于所有自然现象之中
+
+- 学习概率的法则，是我们理解自然届和作出最优决策（损失最小）的唯一途径
+
+quantification of uncertainty has led to optimum decison making.
+
+
+## 随机数
+
+- random  sequence of numbers enable us to discover, by comparision, similar chance mechanisms in nature
+
+- the use of random numbers for solving problems in probability and statistics that are too complex for exact solution
+
+## 蒙特卡洛模拟
+
+> the record of a month's roulette playing at monte carlo can afford us material for discussing the foundations of knowledge.
+-- Karl Pearson
+
+- 正方形中异形的面积
+
+## 银行中的秘钥
+
+|   密钥   | 0 1 0 0 0 1 1 |
+|:--------:|:-------------:|
+| 原始信息 | 1 0 1 1 0 0 1 |
+| 加密信息 | 1 1 1 1 0 1 0 |
+|   密钥   | 0 1 0 0 0 1 1 |
+| 解密信息 | 1 0 1 1 0 0 1 |
+
+加密、解密法则：凡是遇到密钥数字为1的时候，就改变数字；遇到0的时候，数字不变。
+
+## ATM与后台系统的信息沟通
+
+
+
+## final words
+
+- all knowledge is ,in final analysis, history.
+
+- all sciecne are, in the abstract, mathematics.
+
+- all judgements are, in their rationale, statistics.
+
+
+
+
