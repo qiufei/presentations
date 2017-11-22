@@ -13,6 +13,8 @@
 
 [统计学导论](http://htmlpreview.github.com/?https://github.com/qiufei/presentations/blob/master/统计学导论.html)
 
+[统计学导论备用地址](https://rawgit.com/qiufei/banking/master/统计学导论.html)
+
 
 
 
