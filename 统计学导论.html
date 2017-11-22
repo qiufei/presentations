@@ -533,7 +533,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <section class="slide level2">
 <h2>统计就是数据搜集吗</h2>
 <ul>
-<li><p>raw data rae usually voluminous data and confusing</p></li>
+<li><p>raw data rae usually voluminous and confusing</p></li>
 <li><p>they have to be suitably summerized for easy interpretation</p></li>
 </ul>
 <p>从19世纪开始，统计学意义变为解释数据，从数据中提取信息，以便于走出最后的决策。</p>
@@ -541,6 +541,10 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <section class="slide level2">
 <h2>为什么要等到十九世纪</h2>
 <p>在此之前，人们是用一种确定性的思维看待世界。</p>
+<ol type="1">
+<li><p>演绎法</p></li>
+<li><p>归纳法</p></li>
+</ol>
 </section>
 <section class="slide level2">
 <h2>为什么要放弃确定性的思路</h2>
@@ -569,12 +573,15 @@ document.getElementsByTagName('head')[0].appendChild(style);
 </blockquote>
 </section>
 <section class="slide level2">
-<h2>统计方法是一种归纳性的方法</h2>
+<h2>量化不确定性的方法</h2>
 <ul>
-<li><p>inductive reasoning can be made precise by specifying the amount of uncertainty involve in the conclusion.</p></li>
-<li><p>this pave the way for working out an optimum course of action involving minimum risk, in any given uncertain situation, by a purely deductive process.</p></li>
+<li><p>如果能够量化不确定行的话，我们就能回答古典逻辑所不能回到的问题</p></li>
+<li><p>我们能够回答yes和no之外的答案</p></li>
+<li><p>从而我们能够提供实际的解决方案</p></li>
 </ul>
-<p>最小风险决策</p>
+<blockquote>
+<p>It is truth very certain that when it is not in our power to determine what is true we ought to follow what is most probable. –Descartes</p>
+</blockquote>
 </section>
 <section class="slide level2">
 <h2>不确定性的程度</h2>
@@ -682,6 +689,19 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <p>the record of a month’s roulette playing at monte carlo can afford us material for discussing the foundations of knowledge. – Karl Pearson</p>
 </blockquote>
 <p>正方形中异形的面积</p>
+</section>
+<section id="section" class="slide level2" data-background="./pic/monte-carlo.png">
+<h2></h2>
+</section>
+<section class="slide level2">
+<h2>模拟算法</h2>
+<ol type="1">
+<li><p>以正放形任意垂直相交的两边为数轴的横轴和纵轴</p></li>
+<li><p>任意选择一对随机数(x,y),x,y的值都小于b,而b大于正方形的边长</p></li>
+<li><p>重复这个过程多次</p></li>
+<li><p>用<span class="math inline">\(a_m\)</span>表示随机点落在所求区域内的点的个数，<span class="math inline">\(m\)</span>表示随机点落在正方形内的个数</p></li>
+<li><p>按照大数定律，<span class="math inline">\(\frac{a_m}{m}\)</span>的值就是异形边际与正方形面积的比值</p></li>
+</ol>
 </section>
 <section class="slide level2">
 <h2>贷款问题</h2>

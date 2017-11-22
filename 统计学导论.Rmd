@@ -88,7 +88,7 @@ output:
 
 ## 统计就是数据搜集吗
 
-- raw data rae usually voluminous data and confusing 
+- raw data rae usually voluminous and confusing 
 
 - they have to be suitably summerized for easy interpretation
 
@@ -100,6 +100,10 @@ output:
 
 
 在此之前，人们是用一种确定性的思维看待世界。
+
+1. 演绎法
+
+2. 归纳法
 
 
 
@@ -133,13 +137,16 @@ $$y = f_a(x_1,x_2,...,x_n)$$
 >statistics as a method of *learning from experience* and *decision making under uncertainty*.
 
 
-## 统计方法是一种归纳性的方法
+## 量化不确定性的方法
 
-- inductive reasoning can be made precise by specifying the amount of uncertainty involve in the conclusion. 
+- 如果能够量化不确定行的话，我们就能回答古典逻辑所不能回到的问题
 
-- this pave the way for working out an optimum course of action involving minimum risk, in any given uncertain situation, by a purely deductive process.
+- 我们能够回答yes和no之外的答案
 
-最小风险决策
+- 从而我们能够提供实际的解决方案
+
+>It is truth very certain that when it is not in our power to determine what is true we ought to follow what is most probable.
+--Descartes
 
 ## 不确定性的程度
 
@@ -237,6 +244,19 @@ quantification of uncertainty has led to optimum decison making.
 
 正方形中异形的面积
 
+## {data-background="./pic/monte-carlo.png"}
+
+## 模拟算法
+
+1. 以正放形任意垂直相交的两边为数轴的横轴和纵轴
+
+2. 任意选择一对随机数(x,y),x,y的值都小于b,而b大于正方形的边长
+
+3. 重复这个过程多次
+
+4. 用$a_m$表示随机点落在所求区域内的点的个数，$m$表示随机点落在正方形内的个数
+
+5. 按照大数定律，$\frac{a_m}{m}$的值就是异形边际与正方形面积的比值
 
 ## 贷款问题
 
