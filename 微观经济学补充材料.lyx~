@@ -1,0 +1,1384 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usepackage[space,indent]{ctex}
+%\usetheme{CambridgeUS}
+\usetheme{Berlin}
+\usecolortheme{beaver}
+\date{2017.12.12}
+\end_preamble
+\options 14pt,hyperref={CJKbookmarks=true}
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+微观经济学补充材料
+\end_layout
+
+\begin_layout Author
+hfutqiufei@163.com
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+边际概念的应用
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+经济学十大原理之一：理性人在边际上思考。
+\end_layout
+
+\begin_layout Itemize
+边际（marginal）改变，在数学上的表达，就是导数。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+总效用（TU）和边际效用（MU）
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+假设消费者对一种商品额消费数量为
+\begin_inset Formula $q$
+\end_inset
+
+，效用函数为
+\begin_inset Formula $f\left(q\right)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Itemize
+总效用:
+\begin_inset Formula $TU=f\left(q\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+边际效用:
+\begin_inset Formula $MU=lim\frac{\Delta TU\left(q\right)}{\Delta q}=\frac{dTU\left(q\right)}{dq}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+例如：
+\begin_inset Formula $f\left(q\right)=q^{2}-3q$
+\end_inset
+
+，那么
+\begin_inset Formula $TU=q^{2}-3q,MU=2q-3$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+为什么要有边际效用的概念？
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+边际效用是用来描述消费者均衡条件的工具
+\end_layout
+
+\begin_layout Itemize
+消费者均衡的条件
+\begin_inset Formula $\frac{MU_{x}}{P_{x}}=\frac{MU_{y}}{P_{y}}=\cdots=\lambda$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+边际效用与总效用的关系
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+我们消费某种商品的效用（满足感），一般随着消费者这种商品的数量的增加而下降。
+\end_layout
+
+\begin_layout Itemize
+这种规律用边际的语言来讲，就被称之为“边际效用递减”。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+边际效用与总效用的图形表示
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pic/microeconomics/tumu.jpg
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+消费者的边际考虑
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+消费在消费商品时，对比边际收益和边际成本，考虑两个量是边际效用和商品的边际价格
+\end_layout
+
+\begin_layout Itemize
+消费均衡的条件是
+\begin_inset Formula $MU=MC$
+\end_inset
+
+，在完全竞争时边际价格就等于市场价格
+\begin_inset Formula $P$
+\end_inset
+
+，所以均衡条件是
+\begin_inset Formula $MU=P$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+厂商的边际考虑
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+类似的，厂商在生产商品时，也是对比边际收益和边际成本
+\end_layout
+
+\begin_layout Itemize
+生产均衡的条件是
+\begin_inset Formula $MR=MC$
+\end_inset
+
+，在完全竞争时边际收益就等于市场价格
+\begin_inset Formula $P$
+\end_inset
+
+，所以均衡条件是
+\begin_inset Formula $P=MC$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+厂商情况复杂化一：短期和长期
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+在短期，厂商不能调整产量和规模，所以可能亏损，
+\end_layout
+
+\begin_layout Itemize
+在长期，厂商不能出现亏损，否则厂商就不会生产了，所以长期均衡还要加入平均成本（
+\begin_inset Formula $AC,Average\:Cost$
+\end_inset
+
+）的内容。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+短期与长期成本的区别：固定成本
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pic/microeconomics/cost.jpg
+	scale 12
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+长期均衡条件
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+长期均衡条件
+\begin_inset Formula $MR=LMC=SMC=LAC=SAC$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+以上L指的是长期，long-term的首字母，S指的是短期，short-term的首字母。
+\end_layout
+
+\begin_layout Itemize
+价格不能低于长期平均成本
+\begin_inset Formula $LAC$
+\end_inset
+
+，否则厂商就会退出生产。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+与平均成本相关的概念：规模经济
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+如果随着规模的扩张，平均成本出现下降，那么就称这种生产活动有规模经济效应。
+\end_layout
+
+\begin_layout Itemize
+规模经济的原因：分工与专业化，生产经营的不可分性
+\end_layout
+
+\begin_layout Itemize
+规模经济的度量：成本弹性
+\begin_inset Formula $E_{c}$
+\end_inset
+
+，成本的变动率除以产量的变动率。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+厂商的复杂化二：垄断竞争
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+产品市场上，常常出现的情况是虽然同类型厂商很多，但是产品不是完全一样的，因此市场不是完全竞争的市场。
+\end_layout
+
+\begin_layout Itemize
+短期均衡条件，依然是
+\begin_inset Formula $MR=MC$
+\end_inset
+
+，为了体现这是短期的情况，我们一般也写成
+\begin_inset Formula $MR=SMC$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+长期均衡条件，
+\begin_inset Formula $MR=LMC=SMC,\text{同时}AR=LAC=SAC$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+这里
+\begin_inset Formula $AR,\,Average\:return$
+\end_inset
+
+是平均收益的意思
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+厂商的复杂化三：寡头竞争
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+有时候产品市场上只有几个厂商，这时，每个厂商都对市场价格有较大的影响力，这时的市场被成为寡头市场。
+\end_layout
+
+\begin_layout Itemize
+此时的均衡求解一般要用到博弈论的方法。
+\end_layout
+
+\begin_layout Itemize
+一个比较简单有趣的例子是古诺寡头均衡的情况。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+古诺均衡解
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+如果市场上寡头厂商的个数为
+\begin_inset Formula $m$
+\end_inset
+
+，那么可以得到以下一般结论：
+\end_layout
+
+\begin_layout Itemize
+每个厂商的产量
+\begin_inset Formula $=\text{市场总容量}\times\frac{\text{1}}{m+1}$
+\end_inset
+
+，市场的均衡总产量
+\begin_inset Formula $=\text{市场总容量\times}\frac{m}{m+1}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+博弈论基本概念
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+当市场出现寡头情况时，就需要用博弈论的工具来分析他们之间的互动。
+\end_layout
+
+\begin_layout Itemize
+最基础的两个概念是占优均衡和纳什均衡（Nash equilibrium）。
+\end_layout
+
+\begin_layout Itemize
+下面分别以囚徒困境和恋爱作战两个例子来解释这两个概念。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+囚徒困境
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+囚徒B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+坦白
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+不坦白
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+囚徒A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+坦白
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（-5，-5）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（-1，-10）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+不坦白
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（-10，-1）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（-2，-2）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+此时存在占优均衡，囚徒都会选择坦白
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+恋爱作战
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+女方
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+看电影
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+听音乐会
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+男方
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+看电影
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（2，1）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（0，0）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+听音乐会
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（0，0）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（1，2）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+此时存在纳什均衡，选择与对方在一起的活动是最优的。占优均衡一定是纳什均衡，纳什均衡不一定是占优均衡。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+不完全竞争的市场有什么后果呢？
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+之前我们分析了很多厂商不完全竞争的情况，不完全竞争会带来一系列的后果，
+\end_layout
+
+\begin_layout Itemize
+其中一个很重要的后果就是收入分配不均等
+\end_layout
+
+\begin_layout Itemize
+描述收入分配不均衡的指标是基尼系数，基尼系数越大，收入分配越不均衡
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+基尼系数
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+基尼系数=
+\begin_inset Formula $\frac{A}{A+B}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pic/microeconomics/gini.png
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+要素市场
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+前面我们分析了厂商在商品市场均衡的各种情况
+\end_layout
+
+\begin_layout Itemize
+厂商在追求利润最大化时，因为他首先要把商品生产出来，所以他还要考虑生产要素市场
+\end_layout
+
+\begin_layout Itemize
+厂商对生产要素的需求又被成为派生需求，或者引致需求
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+厂商在要素市场的均衡：同样运用
+\begin_inset Formula $MR=MC$
+\end_inset
+
+的原理
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+因为是要素市场，所以此时要用要素的边际收益（MRP）和要素的边际成本（MFC），均衡的一般条件是
+\begin_inset Formula $MRP=MFC$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+当要素市场或者商品市场一方出现完全竞争的情况时，条件可以进行一些简化。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+厂商要素市场均衡：简化的情况
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+当要素市场完全竞争时，要素的边际成本（MFC）就等于要素的市场价格w，所以均衡条件为
+\begin_inset Formula $MFC=w$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+当产品市场完全竞争时，产品的边际收益就等于产品的价格，所以
+\begin_inset Formula $MRP=MPP\times MR=MPP\times P=VMP$
+\end_inset
+
+，所以此时均衡条件为
+\begin_inset Formula $VMP=MFC$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+生产要素的投入阶段
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pic/microeconomics/stage.jpg
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+要素供给的一个有趣的现象
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+前面我们讨论了厂商的要素需求，从理论完整性而言，还要考虑要素的供给。
+\end_layout
+
+\begin_layout Itemize
+要素的供给规律比较简单，一般是要素价格越高，供给越多。
+\end_layout
+
+\begin_layout Itemize
+但是，在劳动力市场上存在一个例外，当工资高于某点之后，劳动力供给会出现下降。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+拐折的劳动力供给曲线
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pic/microeconomics/labor.jpg
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+市场失灵：不完全信息
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+我们已经知道不完全竞争、公共品和外部性会导致市场市场。信息经济学告诉我们不完全信息也会导致市场失灵。
+\end_layout
+
+\begin_layout Itemize
+逆向选择：交易之前，次品驱逐良品。例子：旧车市场。
+\end_layout
+
+\begin_layout Itemize
+道德风险：交易之后，降低努力程度。例子：保险市场。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

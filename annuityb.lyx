@@ -1,0 +1,563 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-cjk
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+annuity and mortgage
+\end_layout
+
+\begin_layout Author
+hfutqiufei@163.com
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+年金的总现值An
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n$
+\end_inset
+
+期年金，每月支付
+\begin_inset Formula $1$
+\end_inset
+
+元钱，每期支付的现值为
+\begin_inset Formula $pc_{t}$
+\end_inset
+
+，利率为
+\begin_inset Formula $i$
+\end_inset
+
+，算年金的总现值
+\begin_inset Formula $A_{n}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+pc_{1}=\frac{1}{1+i}=v
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+pc_{2}=\frac{1}{\left(1+i\right)^{2}}=v^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+pc_{3}=\frac{1}{\left(1+i\right)^{3}}=v^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+pc_{n}=\frac{1}{\left(1+i\right)^{n}}=v^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+An
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+于是
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{n}=pc_{1}+pc_{2}+pc_{3}+...+pc_{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=v+v^{2}+v^{3}+...+v^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=v\left(1+v+v^{2}+...+v^{n-1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+二项展开式
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{a^{n}-b^{n}}{a-b}=a^{n-1}+a^{n-2}b+...+ab^{n-2}+b^{n-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我们令
+\begin_inset Formula $a=1,b=v$
+\end_inset
+
+，上面式子变为
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(1-v^{n}\right)=\left(1-v\right)\left(1+v+...+v^{n-2}+v^{n-1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\left(1-v^{n}\right)}{\left(1-v\right)}=\left(1+v+...+v^{n-2}+v^{n-1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+an_full
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+也就是说
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{n}=v\frac{\left(1-v^{n}\right)}{\left(1-v\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+把
+\begin_inset Formula $\frac{1}{1+i}=v$
+\end_inset
+
+代入上式，得到
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{n}=v\frac{\left(1-v^{n}\right)}{\left(1-v\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\frac{1}{1+i}\frac{\left(1-\left(\frac{1}{1+i}\right)^{n}\right)}{\left(1-\frac{1}{1+i}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\frac{\left[1-\frac{1}{\left(1+i\right)^{n}}\right]}{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+MP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{n}=\frac{\left[1-\frac{1}{\left(1+i\right)^{n}}\right]}{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+上面公式是每月还
+\begin_inset Formula $1$
+\end_inset
+
+元钱的年金总额，现在房贷是每月还
+\begin_inset Formula $mp$
+\end_inset
+
+元钱。于是公式变为
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+mb=mp\frac{\left[1-\frac{1}{\left(1+\frac{i}{12}\right)^{12n}}\right]}{\frac{i}{12}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+mp_full
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+也就是
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+mp=\frac{mb\frac{i}{12}}{\left[1-\frac{1}{\left(1+\frac{i}{12}\right)^{12n}}\right]}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\frac{mb\frac{i}{12}\left(1+\frac{i}{12}\right)^{12n}}{\left(1+\frac{i}{12}\right)^{12n}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+mp_think
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+一个类比，下面是月供的公式
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{mb\frac{i}{12}\left(1+\frac{i}{12}\right)^{12n}}{\left(1+\frac{i}{12}\right)^{12n}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+里面有个余额乘以利息项目
+\begin_inset Formula $mb\frac{i}{12}$
+\end_inset
+
+，那么在算本金还有多少的时候，是不是应该把利息项目拿掉？
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+mb
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+于是公式变为：
+\begin_inset Formula 
+\[
+\frac{mb\left(1+\frac{i}{12}\right)^{12n}}{\left(1+\frac{i}{12}\right)^{12n}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+以上是全部期限内的本金，我们还了
+\begin_inset Formula $t$
+\end_inset
+
+期的本金应该是
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{mb\left(1+\frac{i}{12}\right)^{t}}{\left(1+\frac{i}{12}\right)^{12n}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+mb_new
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+于是还剩下的本金就应该等于总本金减去已经还了的本金
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+mb_{new}=\frac{mb\left(1+\frac{i}{12}\right)^{12n}}{\left(1+\frac{i}{12}\right)^{12n}-1}-\frac{mb\left(1+\frac{i}{12}\right)^{t}}{\left(1+\frac{i}{12}\right)^{12n}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+即为
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+mb_{new}=\frac{mb\left[\left(1+\frac{i}{12}\right)^{12n}-\left(1+\frac{i}{12}\right)^{t}\right]}{\left(1+\frac{i}{12}\right)^{12n}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

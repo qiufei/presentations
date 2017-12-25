@@ -1,0 +1,74 @@
+---
+title: "专业文献读写议"
+subtitle: "第一章 导论"
+author: "邱飞"
+date: "2017/12/12"
+output:
+  xaringan::moon_reader:
+    css: ["zh-CN.css","extra.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: center, middle
+
+# 文献
+
+### 文章
+
+
+---
+
+# 文献
+
+## 文章
+
+### 文字
+
+---
+
+# 你好世界
+
+
+---
+
+# 插入网络图片
+
+
+.center[![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Mudra-Naruto-KageBunshin.svg)]
+
+---
+
+# 插入本地图片--居中
+
+
+.center[![](../pic/gini.svg)]
+
+---
+
+# 插入本地图片--默认
+
+
+![](../pic/gini.svg)
+
+---
+background-image: url(../pic/gini.svg)
+background-size: cover
+class: center
+
+#背景图片占满整个PPT 
+
+size参数设置大小
+
+---
+background-image: url(../pic/gini.svg)
+background-size: 80%
+background-position: 70% 70%
+class: center，bottom
+
+#背景图片调整位置
+
+position参数设置位置

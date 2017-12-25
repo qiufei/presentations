@@ -1,22 +1,26 @@
----
-title: "测试xaringan"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-date: "2017/09/22"
-output:
-  xaringan::moon_reader:
-    css: ["zh-CN.css","extra.css"]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>测试xaringan</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Yihui Xie" />
+    <link rel="stylesheet" href="zh-CN.css" type="text/css" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# 测试xaringan
+## ⚔<br/>with xaringan
+### Yihui Xie
+### 2017/09/22
+
 ---
 
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+
+
 
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
@@ -39,7 +43,8 @@ class: inverse, center, middle
 
 首先从 [Github](https://github.com/yihui/xaringan) 安装 **xaringan** 包：
 
-```{r tidy=FALSE}
+
+```r
 if (!requireNamespace("xaringan"))
   devtools::install_github("yihui/xaringan")
 ```
@@ -48,7 +53,7 @@ if (!requireNamespace("xaringan"))
 
 除非你是六指琴魔，否则我建议安装 [RStudio 编辑器](https://www.rstudio.com/products/rstudio/)，它会让你做幻灯片做得飞起。
 
-- 从菜单 `File -> New File -> R Markdown -> From Template -> Ninja Presentation (Simplified Chinese)` 创建一个新文档；
+- 从菜单 `File -&gt; New File -&gt; R Markdown -&gt; From Template -&gt; Ninja Presentation (Simplified Chinese)` 创建一个新文档；
 
 --
 
@@ -56,13 +61,13 @@ if (!requireNamespace("xaringan"))
 
 --
 
-- 或者点击 [RStudio 插件](https://rstudio.github.io/rstudioaddins/)<sup>*</sup> “Infinite Moon Reader” 在 RStudio 里实时预览幻灯片（每次你保存文档的时候，它会自动重新编译）；
+- 或者点击 [RStudio 插件](https://rstudio.github.io/rstudioaddins/)&lt;sup&gt;*&lt;/sup&gt; “Infinite Moon Reader” 在 RStudio 里实时预览幻灯片（每次你保存文档的时候，它会自动重新编译）；
 
 .footnote[[*] 如果你看不到模板或者插件，请参见 [#2](https://github.com/yihui/xaringan/issues/2)，你的某些 R 包可能崩坏了，需要重新安装。]
 
 
 ---
-background-image: url(`r xaringan:::karl`)
+background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
 background-position: 50% 50%
 class: center, bottom, inverse
 
@@ -89,7 +94,7 @@ class: center, bottom, inverse
 
 关于 remark.js 的用法可参考它的[首页](https://remarkjs.com)，由于伟大的墙，你可能打不开这个页面（因为里面用了 Google 字体）。不过 [remark.js 的维基页面](https://github.com/gnab/remark/wiki) 已经有足够的信息了，你需要学习：
 
-- 如何创建一页新的片子，主要是 Markdown 语法<sup>*</sup> 以及单页片子的属性设置；
+- 如何创建一页新的片子，主要是 Markdown 语法&lt;sup&gt;*&lt;/sup&gt; 以及单页片子的属性设置；
 
 - 如何排版，例如文本对齐；
 
@@ -101,7 +106,7 @@ class: center, bottom, inverse
 .footnote[[*] 它和 Pandoc Markdown 语法不同，不过对做幻灯片而言，简单的语法可能也足够了。]
 
 ---
-background-image: url(`r xaringan:::karl`)
+background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
 background-size: cover
 class: center, bottom, inverse
 
@@ -162,7 +167,7 @@ remark.js （左）与 **xaringan** （右）：
 
 1. 可用 `autoplay` 选项自动播放；
 
-1. MathJax 无需特别配置；<sup>*</sup>
+1. MathJax 无需特别配置；&lt;sup&gt;*&lt;/sup&gt;
 
 1. 用 `{{}}` 高亮一行代码;
 
@@ -176,13 +181,13 @@ remark.js （左）与 **xaringan** （右）：
 
 # 数学公式
 
-数学公式用 LaTeX 语法写在一对美元符号中间，例如 &#36;\alpha+\beta$ 会生成 $\alpha+\beta$。若要将公式单独显示为一个段落，可以用一对双重美元符号：
+数学公式用 LaTeX 语法写在一对美元符号中间，例如 &amp;#36;\alpha+\beta$ 会生成 `\(\alpha+\beta\)`。若要将公式单独显示为一个段落，可以用一对双重美元符号：
 
 ```
 $$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
 ```
 
-$$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
+`$$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$`
 
 局限性：
 
@@ -194,23 +199,40 @@ $$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
 
 # R 代码
 
-```{r comment='#'}
+
+```r
 # 一个无聊的回归模型
 fit = lm(dist ~ 1 + speed, data = cars)
 coef(summary(fit))
+```
+
+```
+#               Estimate Std. Error   t value     Pr(&gt;|t|)
+# (Intercept) -17.579095  6.7584402 -2.601058 1.231882e-02
+# speed         3.932409  0.4155128  9.463990 1.489836e-12
+```
+
+```r
 dojutsu = c('地爆天星', '天照', '加具土命', '神威', '須佐能乎', '無限月読')
 grep('天', dojutsu, value = TRUE)
+```
+
+```
+# [1] "地爆天星" "天照"
 ```
 
 ---
 
 # R 图形
 
-```{r cars, fig.height=3.5, dev='svg'}
+
+```r
 par(mar = c(4, 4, 1, .1))
 plot(cars, pch = 19, col = 'darkgray', las = 1)
 abline(fit, lwd = 2)
 ```
+
+![](xaringan_files/figure-html/cars-1.svg)&lt;!-- --&gt;
 
 
 ---
@@ -238,16 +260,21 @@ if (TRUE) {
 .pull-right[
 用 `{{}}` 包裹的代码：
 
-    `r ''````{r tidy=FALSE}
+    ```{r tidy=FALSE}
     if (TRUE) {
     *{{ message("敲黑板！划重点！") }}
     }
     ```
 输出：
-```{r tidy=FALSE}
+
+```r
 if (TRUE) {
-{{ message("敲黑板！划重点！") }}
+* message("敲黑板！划重点！") 
 }
+```
+
+```
+## 敲黑板！划重点！
 ```
 
 这是合法的 R 代码，所以你可以真的运行它。
@@ -303,13 +330,13 @@ background-position: 90% 8%
 
 # 写轮眼
 
-**xaringan** 这个名字来源于火影中的写轮眼 **Sharingan**。<sup>1</sup> 写轮眼有两大能力：
+**xaringan** 这个名字来源于火影中的写轮眼 **Sharingan**。&lt;sup&gt;1&lt;/sup&gt; 写轮眼有两大能力：
 
 - 洞察眼
 
 - 催眠眼
 
-其实做演示就是将自己的洞见传递给听众；好的演讲通常有催眠效果，因为它可以深度震撼人心。<sup>2,3</sup>
+其实做演示就是将自己的洞见传递给听众；好的演讲通常有催眠效果，因为它可以深度震撼人心。&lt;sup&gt;2,3&lt;/sup&gt;
 
 .footnote[
 [1] 我把 Sh 换成 X 了，因为几乎没有一个歪果仁读对过我的姓。当然主要原因还是 xaringan 搜索起来更容易被搜到。
@@ -346,3 +373,33 @@ background-position: 90% 8%
 
 
 ---
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
+(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
