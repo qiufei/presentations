@@ -1,6 +1,6 @@
 ---
-title: "专业文献读写议"
-subtitle: "第一章 导论"
+title: "使用资源"
+subtitle: "engage resource"
 author: "邱飞"
 date: "2017/12/12"
 output:
