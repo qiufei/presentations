@@ -20,11 +20,18 @@
        url('https://github.com/yihui/xaringan/releases/download/v0.1/source-code-pro.woff') format('woff');
 }
 
-body { font-family: 'Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Songti SC', serif; }
+body { font-family: 'Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Songti SC', serif;
+}
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz', 'Palatino Linotype', 'Book Antiqua', Palatino, 'STHeiti', 'SimHei', 'Microsoft YaHei';
   font-weight: normal;
 }
+
+html *
+{
+   font-size: 110%
+}
+
 a, a > code {
   color: rgb(249, 38, 114);
   text-decoration: none;
